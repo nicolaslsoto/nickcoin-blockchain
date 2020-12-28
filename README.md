@@ -8,6 +8,7 @@ The Blockchain can be run on your local machine through localhost, using ports 5
 http://localhost:5000/
 
 To run multiple nodes: Run all 4 programs through 4 different terminal windows.
+
 python3 nickcoin.py
 
 In order to mine blocks, retrieve the current chain, check if a chain is valid, add transactions,
