@@ -1,2 +1,2 @@
 # nickcoin-blockchain
-A small and simple blockchain implementation using 4 node through flask and json
+A small and simple blockchain implementation using 4 node through Flask and JSON, using Python.
