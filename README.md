@@ -8,14 +8,18 @@ The Blockchain can be run on your local machine through localhost, using ports 5
 http://localhost:5000/
 
 To run multiple nodes: Run all 4 programs through 4 different terminal windows.
+python3 nickcoin.py
 
 In order to mine blocks, retrieve the current chain, check if a chain is valid, add transactions,
 connect nodes, or replace a chain, we can visit the following url's:
 (visiting these url's will give information or make changes to the blockchain)
 
 http://localhost:5000/mine_block OR /get_chain OR /is_valid
+
 http://localhost:5001/mine_block OR /get_chain OR /is_valid OR /add_transaction OR /connect_node OR /replace_chain
+
 http://localhost:5002/mine_block OR /get_chain OR /is_valid OR /add_transaction OR /connect_node OR /replace_chain
+
 http://localhost:5003/mine_block OR /get_chain OR /is_valid OR /add_transaction OR /connect_node OR /replace_chain
 
 # Index
