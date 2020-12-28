@@ -1,7 +1,3 @@
-# Module 1 - Create a Blockchain
-# Module 2 - Create a Cryptocurrency
-
-# Importing the libraries
 # each block will have its own timestamp
 import datetime
 # used to hash the blocks
@@ -17,8 +13,7 @@ from urllib.parse import urlparse
 # Web application from Flask Class, jsonify to import messages from requests, request to connect nodes
 from flask import Flask, jsonify, request
 
-# Part 1 - Building a Blockchain
-
+# Building a Blockchain
 class Blockchain:
 
 	# initialize blockchain
@@ -138,7 +133,7 @@ class Blockchain:
 			# if chain was not replaced (still None), return false
 			return False
 
-# Part 2 - Mining our Blockchain
+# Mining our Blockchain
 
 # Creating a Web App
 app = Flask(__name__)
@@ -211,7 +206,7 @@ def add_transaction():
 	response = {'message': f'This transaction will be added to block {index}'}
 	return jsonify(response), 201
 
-# Part 3 - Decentralizing our Blockchain
+# Decentralizing our Blockchain
 
 # Connecting new nodes
 @app.route('/connect_node', methods = ['POST'])

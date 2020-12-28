@@ -9,7 +9,7 @@ import json
 # Web application from Flask Class, jsonify to import messages from requests
 from flask import Flask, jsonify
 
-# Part 1 - Building a Blockchain
+# Building a Blockchain
 
 class Blockchain:
     
@@ -81,7 +81,7 @@ class Blockchain:
             block_index += 1
         return True
            
-# Part 2 - Mining our Blockchain
+# Mining our Blockchain
 
 # Creating a Web App
 app = Flask(__name__)

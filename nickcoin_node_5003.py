@@ -1,7 +1,3 @@
-# Module 1 - Create a Blockchain
-# Module 2 - Create a Cryptocurrency
-
-# Importing the libraries
 # each block will have its own timestamp
 import datetime
 # used to hash the blocks
